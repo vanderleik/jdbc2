@@ -10,7 +10,13 @@ import java.sql.Statement;
 public class Program {
     public static void main(String[] args) {
         Connection conn = null;
+        /*
+        Classe responsável por montar um comando SQL para ser executado (e.g. recuperar os dados em um BD).
+         */
         Statement st = null;
+        /*
+        Representa um objeto contendo o resultado da nossa consulta em forma de tabela.
+         */
         ResultSet rs = null;
 
         try {
